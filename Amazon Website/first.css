@@ -119,7 +119,17 @@ body{
     width: 100%;
     border: none;
     font-size: 1rem;
+    animation: input 1s ease-in-out 1 ;
 }
+@keyframes input{
+    0%{
+       width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
 .input:focus{
    outline: none;
 }
@@ -404,4 +414,5 @@ a{
 }
 .bottom-nav-select:hover{
     cursor: pointer;
+
 }
